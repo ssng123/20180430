@@ -1,0 +1,8 @@
+<h1>수정하기</h1>
+<p>내용 작성을 마친 후 저장을 완료해 주세요.</p>
+
+<form action="/home/update/<%=@post.id%>" method="post">
+  TITLE : <input type="text" name="title" value="<%=@post.title%>"><br>
+  CONTENTS : <input type="text" name="content" value="<%=@post.content%>"><br>
+  <input type="submit" value="EDIT">
+</form>
